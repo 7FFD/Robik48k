@@ -1,0 +1,6 @@
+#!/bin/sh
+if command -v dotnet >> /dev/null && dotnet --list-runtimes | grep -q '.NETCore.App 7.'; then
+    dotnet ./../zx-tools/zx.tool/bin/Debug/net7.0/zx.tool.dll $@
+else
+    echo 'Please install .NET 7 Runtime'
+fi
