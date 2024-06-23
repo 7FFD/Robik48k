@@ -8,24 +8,24 @@ pcb2gcode \
   --back *-B_Cu.gbr \
   --outline *-Edge_Cuts.gbr \
   --drill *.drl \
-  --cut-feed=50 \
-  --cut-infeed=0.5 \
+  --cut-feed=80 \
+  --cut-infeed=0.9 \
   --cut-speed=1000 \
-  --cut-vertfeed=50 \
+  --cut-vertfeed=80 \
   --cut-side=back \
   --cutter-diameter=1.5 \
   --min-milldrill-hole-diameter=0 \
   --milldrill-diameter=0.9 \
-  --drill-feed=40 \
+  --drill-feed=50 \
   --drill-speed=1000 \
   --mill-diameters 0.3 \
-  --mill-feed=40 \
+  --mill-feed=50 \
   --mill-speed=1000 \
-  --mill-vertfeed=40 \
+  --mill-vertfeed=50 \
   --milling-overlap=75% \
   --zchange=10 \
-  --zcut=-2.2 \
-  --zdrill=-2.2 \
+  --zcut=-1.8 \
+  --zdrill=-1.8 \
   --zsafe=3 \
   --zwork=-0.07 \
   --extra-passes=0 \
