@@ -1,6 +1,0 @@
-#!/bin/sh
-if command -v dotnet >> /dev/null && dotnet --list-runtimes | grep -q '.NETCore.App 7.'; then
-    dotnet ./../../IoT/avr/xxxrom_prog/software/xxxrom_prog/bin/xxxrom_prog.dll $@
-else
-    echo 'Please install .NET 7 Runtime'
-fi
