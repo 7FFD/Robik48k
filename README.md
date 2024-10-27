@@ -25,3 +25,4 @@ Besides that few changes on Robik must be applied, see Robik_Nick+fixed_by_Maksy
 ## W27C512toKP556PT2
 
 Since KP556PT2 is quite old IC with low reliability it's much better to replace with EEPROM W27C512-50.
+Both D26/D27 can be replaced, use /xxxrom-dump/robik-plm-012-01-D26.bin for video output PLM and /xxxrom-dump/robik-plm-012-D27.bin for system PLM.
